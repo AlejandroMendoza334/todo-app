@@ -1,5 +1,40 @@
 .App {
   text-align: center;
+  font-family: arial, sans-serif;
+  padding: 40px;
+  background-color: #857474;
+  min-height: 100vh;
+}
+
+.input-container{
+  margin-bottom: 20px;
+}
+
+input{
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button{
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 8px auto;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .App-logo {
@@ -14,7 +49,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c1cfeb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
